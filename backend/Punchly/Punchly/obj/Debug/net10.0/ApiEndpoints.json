@@ -1,12 +1,87 @@
 [
   {
-    "ContainingType": "Punchly.Api.Controllers.TestController",
-    "Method": "Get",
-    "RelativePath": "api/Test",
+    "ContainingType": "Punchly.Api.Controllers.AccountController",
+    "Method": "Login",
+    "RelativePath": "api/Account/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Microsoft.AspNetCore.Identity.Data.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Punchly.Api.Controllers.AccountController",
+    "Method": "RegisterPersonalUser",
+    "RelativePath": "api/Account/register-personal",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Punchly.Dtos.RegisterPersonalUserRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Punchly.Api.Controllers.TimeEntriesController",
+    "Method": "GetMyHours",
+    "RelativePath": "api/TimeEntries/my-hours",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "appUserId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "workspaceId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Punchly.Api.Controllers.TimeEntriesController",
+    "Method": "PunchIn",
+    "RelativePath": "api/TimeEntries/punch-in",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Punchly.Api.Dtos.PunchInRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Punchly.Api.Controllers.TimeEntriesController",
+    "Method": "PunchOut",
+    "RelativePath": "api/TimeEntries/punch-out",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Punchly.Api.Dtos.PunchOutRequest",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   }
 ]

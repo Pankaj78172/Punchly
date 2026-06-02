@@ -1,45 +1,45 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\panka\\Desktop\\Punchly\\backend\\Punchly\\",
+  "WorkspaceRootPath": "C:\\Users\\User 2\\Desktop\\Hidden\\Punchly\\Punchly\\backend\\Punchly\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{87047248-427C-7C58-5EB3-846D3301FBFE}|Punchly\\Punchly.csproj|c:\\users\\panka\\desktop\\punchly\\backend\\punchly\\punchly\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87047248-427C-7C58-5EB3-846D3301FBFE}|Punchly\\Punchly.csproj|solutionrelative:punchly\\controllers\\testcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87047248-427C-7C58-5EB3-846D3301FBFE}|Punchly\\Punchly.csproj|c:\\users\\panka\\desktop\\punchly\\backend\\punchly\\punchly\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87047248-427C-7C58-5EB3-846D3301FBFE}|Punchly\\Punchly.csproj|solutionrelative:punchly\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87047248-427C-7C58-5EB3-846D3301FBFE}|Punchly\\Punchly.csproj|c:\\users\\panka\\desktop\\punchly\\backend\\punchly\\punchly\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{87047248-427C-7C58-5EB3-846D3301FBFE}|Punchly\\Punchly.csproj|c:\\users\\user 2\\desktop\\hidden\\punchly\\punchly\\backend\\punchly\\punchly\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87047248-427C-7C58-5EB3-846D3301FBFE}|Punchly\\Punchly.csproj|solutionrelative:punchly\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\panka\\AppData\\Roaming\\Microsoft\\UserSecrets\\e5565d27-7e64-411e-a633-c18f457f0250\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{87047248-427C-7C58-5EB3-846D3301FBFE}|Punchly\\Punchly.csproj|c:\\users\\user 2\\desktop\\hidden\\punchly\\punchly\\backend\\punchly\\punchly\\controllers\\timeentriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87047248-427C-7C58-5EB3-846D3301FBFE}|Punchly\\Punchly.csproj|solutionrelative:punchly\\controllers\\timeentriescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87047248-427C-7C58-5EB3-846D3301FBFE}|Punchly\\Punchly.csproj|c:\\users\\panka\\desktop\\punchly\\backend\\punchly\\punchly\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{87047248-427C-7C58-5EB3-846D3301FBFE}|Punchly\\Punchly.csproj|solutionrelative:punchly\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User 2\\AppData\\Roaming\\Microsoft\\UserSecrets\\e5565d27-7e64-411e-a633-c18f457f0250\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\panka\\Desktop\\Punchly\\backend\\Punchly\\Punchly\\Migrations\\20260602034015_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Punchly\\Migrations\\20260602034015_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87047248-427C-7C58-5EB3-846D3301FBFE}|Punchly\\Punchly.csproj|c:\\users\\user 2\\desktop\\hidden\\punchly\\punchly\\backend\\punchly\\punchly\\dtos\\punchinrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87047248-427C-7C58-5EB3-846D3301FBFE}|Punchly\\Punchly.csproj|solutionrelative:punchly\\dtos\\punchinrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87047248-427C-7C58-5EB3-846D3301FBFE}|Punchly\\Punchly.csproj|c:\\users\\panka\\desktop\\punchly\\backend\\punchly\\punchly\\models\\timeentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87047248-427C-7C58-5EB3-846D3301FBFE}|Punchly\\Punchly.csproj|solutionrelative:punchly\\models\\timeentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87047248-427C-7C58-5EB3-846D3301FBFE}|Punchly\\Punchly.csproj|c:\\users\\user 2\\desktop\\hidden\\punchly\\punchly\\backend\\punchly\\punchly\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87047248-427C-7C58-5EB3-846D3301FBFE}|Punchly\\Punchly.csproj|solutionrelative:punchly\\dtos\\loginrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87047248-427C-7C58-5EB3-846D3301FBFE}|Punchly\\Punchly.csproj|c:\\users\\panka\\desktop\\punchly\\backend\\punchly\\punchly\\models\\workspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87047248-427C-7C58-5EB3-846D3301FBFE}|Punchly\\Punchly.csproj|solutionrelative:punchly\\models\\workspace.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87047248-427C-7C58-5EB3-846D3301FBFE}|Punchly\\Punchly.csproj|c:\\users\\user 2\\desktop\\hidden\\punchly\\punchly\\backend\\punchly\\punchly\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87047248-427C-7C58-5EB3-846D3301FBFE}|Punchly\\Punchly.csproj|solutionrelative:punchly\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87047248-427C-7C58-5EB3-846D3301FBFE}|Punchly\\Punchly.csproj|c:\\users\\panka\\desktop\\punchly\\backend\\punchly\\punchly\\models\\workspacemember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87047248-427C-7C58-5EB3-846D3301FBFE}|Punchly\\Punchly.csproj|solutionrelative:punchly\\models\\workspacemember.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87047248-427C-7C58-5EB3-846D3301FBFE}|Punchly\\Punchly.csproj|c:\\users\\user 2\\desktop\\hidden\\punchly\\punchly\\backend\\punchly\\punchly\\dtos\\punchoutrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87047248-427C-7C58-5EB3-846D3301FBFE}|Punchly\\Punchly.csproj|solutionrelative:punchly\\dtos\\punchoutrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87047248-427C-7C58-5EB3-846D3301FBFE}|Punchly\\Punchly.csproj|c:\\users\\panka\\desktop\\punchly\\backend\\punchly\\punchly\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User 2\\Desktop\\Hidden\\Punchly\\Punchly\\backend\\Punchly\\Punchly\\Migrations\\20260602161008_SplitFullNameIntoFirstAndLastName.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Punchly\\Migrations\\20260602161008_SplitFullNameIntoFirstAndLastName.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87047248-427C-7C58-5EB3-846D3301FBFE}|Punchly\\Punchly.csproj|c:\\users\\user 2\\desktop\\hidden\\punchly\\punchly\\backend\\punchly\\punchly\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87047248-427C-7C58-5EB3-846D3301FBFE}|Punchly\\Punchly.csproj|solutionrelative:punchly\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87047248-427C-7C58-5EB3-846D3301FBFE}|Punchly\\Punchly.csproj|c:\\users\\user 2\\desktop\\hidden\\punchly\\punchly\\backend\\punchly\\punchly\\dtos\\registerpersonaluserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87047248-427C-7C58-5EB3-846D3301FBFE}|Punchly\\Punchly.csproj|solutionrelative:punchly\\dtos\\registerpersonaluserrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -49,136 +49,136 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TestController.cs",
-              "DocumentMoniker": "C:\\Users\\panka\\Desktop\\Punchly\\backend\\Punchly\\Punchly\\Controllers\\TestController.cs",
-              "RelativeDocumentMoniker": "Punchly\\Controllers\\TestController.cs",
-              "ToolTip": "C:\\Users\\panka\\Desktop\\Punchly\\backend\\Punchly\\Punchly\\Controllers\\TestController.cs",
-              "RelativeToolTip": "Punchly\\Controllers\\TestController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwAwAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "PunchOutRequest.cs",
+              "DocumentMoniker": "C:\\Users\\User 2\\Desktop\\Hidden\\Punchly\\Punchly\\backend\\Punchly\\Punchly\\Dtos\\PunchOutRequest.cs",
+              "RelativeDocumentMoniker": "Punchly\\Dtos\\PunchOutRequest.cs",
+              "ToolTip": "C:\\Users\\User 2\\Desktop\\Hidden\\Punchly\\Punchly\\backend\\Punchly\\Punchly\\Dtos\\PunchOutRequest.cs",
+              "RelativeToolTip": "Punchly\\Dtos\\PunchOutRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T03:47:08.376Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20260602034015_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\panka\\Desktop\\Punchly\\backend\\Punchly\\Punchly\\Migrations\\20260602034015_InitialCreate.cs",
-              "RelativeDocumentMoniker": "Punchly\\Migrations\\20260602034015_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\panka\\Desktop\\Punchly\\backend\\Punchly\\Punchly\\Migrations\\20260602034015_InitialCreate.cs",
-              "RelativeToolTip": "Punchly\\Migrations\\20260602034015_InitialCreate.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T03:40:15.687Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\panka\\Desktop\\Punchly\\backend\\Punchly\\Punchly\\appsettings.json",
-              "RelativeDocumentMoniker": "Punchly\\appsettings.json",
-              "ToolTip": "C:\\Users\\panka\\Desktop\\Punchly\\backend\\Punchly\\Punchly\\appsettings.json",
-              "RelativeToolTip": "Punchly\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-02T03:39:31.372Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\panka\\Desktop\\Punchly\\backend\\Punchly\\Punchly\\Program.cs",
-              "RelativeDocumentMoniker": "Punchly\\Program.cs",
-              "ToolTip": "C:\\Users\\panka\\Desktop\\Punchly\\backend\\Punchly\\Punchly\\Program.cs",
-              "RelativeToolTip": "Punchly\\Program.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAAAQAAACQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T03:11:26.3Z",
+              "WhenOpened": "2026-06-02T16:32:12.315Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\panka\\Desktop\\Punchly\\backend\\Punchly\\Punchly\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Punchly\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\panka\\Desktop\\Punchly\\backend\\Punchly\\Punchly\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Punchly\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAIwA0AAAA4AAAAAAAAAA==",
+              "Title": "TimeEntriesController.cs",
+              "DocumentMoniker": "C:\\Users\\User 2\\Desktop\\Hidden\\Punchly\\Punchly\\backend\\Punchly\\Punchly\\Controllers\\TimeEntriesController.cs",
+              "RelativeDocumentMoniker": "Punchly\\Controllers\\TimeEntriesController.cs",
+              "ToolTip": "C:\\Users\\User 2\\Desktop\\Hidden\\Punchly\\Punchly\\backend\\Punchly\\Punchly\\Controllers\\TimeEntriesController.cs",
+              "RelativeToolTip": "Punchly\\Controllers\\TimeEntriesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T03:33:52.566Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "TimeEntry.cs",
-              "DocumentMoniker": "C:\\Users\\panka\\Desktop\\Punchly\\backend\\Punchly\\Punchly\\Models\\TimeEntry.cs",
-              "RelativeDocumentMoniker": "Punchly\\Models\\TimeEntry.cs",
-              "ToolTip": "C:\\Users\\panka\\Desktop\\Punchly\\backend\\Punchly\\Punchly\\Models\\TimeEntry.cs",
-              "RelativeToolTip": "Punchly\\Models\\TimeEntry.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAwBMAAABCAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T03:13:29.489Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "WorkspaceMember.cs",
-              "DocumentMoniker": "C:\\Users\\panka\\Desktop\\Punchly\\backend\\Punchly\\Punchly\\Models\\WorkspaceMember.cs",
-              "RelativeDocumentMoniker": "Punchly\\Models\\WorkspaceMember.cs",
-              "ToolTip": "C:\\Users\\panka\\Desktop\\Punchly\\backend\\Punchly\\Punchly\\Models\\WorkspaceMember.cs",
-              "RelativeToolTip": "Punchly\\Models\\WorkspaceMember.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBIAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T03:13:15.129Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Workspace.cs",
-              "DocumentMoniker": "C:\\Users\\panka\\Desktop\\Punchly\\backend\\Punchly\\Punchly\\Models\\Workspace.cs",
-              "RelativeDocumentMoniker": "Punchly\\Models\\Workspace.cs",
-              "ToolTip": "C:\\Users\\panka\\Desktop\\Punchly\\backend\\Punchly\\Punchly\\Models\\Workspace.cs",
-              "RelativeToolTip": "Punchly\\Models\\Workspace.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T03:12:58.686Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AppUser.cs",
-              "DocumentMoniker": "C:\\Users\\panka\\Desktop\\Punchly\\backend\\Punchly\\Punchly\\Models\\AppUser.cs",
-              "RelativeDocumentMoniker": "Punchly\\Models\\AppUser.cs",
-              "ToolTip": "C:\\Users\\panka\\Desktop\\Punchly\\backend\\Punchly\\Punchly\\Models\\AppUser.cs",
-              "RelativeToolTip": "Punchly\\Models\\AppUser.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAxwA0AAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-02T03:12:35.25Z",
+              "WhenOpened": "2026-06-02T16:22:27.344Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "PunchInRequest.cs",
+              "DocumentMoniker": "C:\\Users\\User 2\\Desktop\\Hidden\\Punchly\\Punchly\\backend\\Punchly\\Punchly\\Dtos\\PunchInRequest.cs",
+              "RelativeDocumentMoniker": "Punchly\\Dtos\\PunchInRequest.cs",
+              "ToolTip": "C:\\Users\\User 2\\Desktop\\Hidden\\Punchly\\Punchly\\backend\\Punchly\\Punchly\\Dtos\\PunchInRequest.cs",
+              "RelativeToolTip": "Punchly\\Dtos\\PunchInRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T16:22:00.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LoginRequest.cs",
+              "DocumentMoniker": "C:\\Users\\User 2\\Desktop\\Hidden\\Punchly\\Punchly\\backend\\Punchly\\Punchly\\Dtos\\LoginRequest.cs",
+              "RelativeDocumentMoniker": "Punchly\\Dtos\\LoginRequest.cs",
+              "ToolTip": "C:\\Users\\User 2\\Desktop\\Hidden\\Punchly\\Punchly\\backend\\Punchly\\Punchly\\Dtos\\LoginRequest.cs",
+              "RelativeToolTip": "Punchly\\Dtos\\LoginRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T16:19:02.14Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "secrets.json",
-              "DocumentMoniker": "C:\\Users\\panka\\AppData\\Roaming\\Microsoft\\UserSecrets\\e5565d27-7e64-411e-a633-c18f457f0250\\secrets.json",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\e5565d27-7e64-411e-a633-c18f457f0250\\secrets.json",
-              "ToolTip": "C:\\Users\\panka\\AppData\\Roaming\\Microsoft\\UserSecrets\\e5565d27-7e64-411e-a633-c18f457f0250\\secrets.json",
-              "RelativeToolTip": "..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\e5565d27-7e64-411e-a633-c18f457f0250\\secrets.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\User 2\\AppData\\Roaming\\Microsoft\\UserSecrets\\e5565d27-7e64-411e-a633-c18f457f0250\\secrets.json",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\e5565d27-7e64-411e-a633-c18f457f0250\\secrets.json",
+              "ToolTip": "C:\\Users\\User 2\\AppData\\Roaming\\Microsoft\\UserSecrets\\e5565d27-7e64-411e-a633-c18f457f0250\\secrets.json",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\AppData\\Roaming\\Microsoft\\UserSecrets\\e5565d27-7e64-411e-a633-c18f457f0250\\secrets.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-05-31T19:51:04.004Z",
+              "WhenOpened": "2026-06-02T16:10:35.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20260602161008_SplitFullNameIntoFirstAndLastName.cs",
+              "DocumentMoniker": "C:\\Users\\User 2\\Desktop\\Hidden\\Punchly\\Punchly\\backend\\Punchly\\Punchly\\Migrations\\20260602161008_SplitFullNameIntoFirstAndLastName.cs",
+              "RelativeDocumentMoniker": "Punchly\\Migrations\\20260602161008_SplitFullNameIntoFirstAndLastName.cs",
+              "ToolTip": "C:\\Users\\User 2\\Desktop\\Hidden\\Punchly\\Punchly\\backend\\Punchly\\Punchly\\Migrations\\20260602161008_SplitFullNameIntoFirstAndLastName.cs",
+              "RelativeToolTip": "Punchly\\Migrations\\20260602161008_SplitFullNameIntoFirstAndLastName.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T16:10:09.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\User 2\\Desktop\\Hidden\\Punchly\\Punchly\\backend\\Punchly\\Punchly\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "Punchly\\Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\User 2\\Desktop\\Hidden\\Punchly\\Punchly\\backend\\Punchly\\Punchly\\Models\\AppUser.cs",
+              "RelativeToolTip": "Punchly\\Models\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T16:04:02.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User 2\\Desktop\\Hidden\\Punchly\\Punchly\\backend\\Punchly\\Punchly\\Program.cs",
+              "RelativeDocumentMoniker": "Punchly\\Program.cs",
+              "ToolTip": "C:\\Users\\User 2\\Desktop\\Hidden\\Punchly\\Punchly\\backend\\Punchly\\Punchly\\Program.cs",
+              "RelativeToolTip": "Punchly\\Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwCQAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T15:56:18.444Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\User 2\\Desktop\\Hidden\\Punchly\\Punchly\\backend\\Punchly\\Punchly\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Punchly\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\User 2\\Desktop\\Hidden\\Punchly\\Punchly\\backend\\Punchly\\Punchly\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Punchly\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAASwHsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T15:46:43.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RegisterPersonalUserRequest.cs",
+              "DocumentMoniker": "C:\\Users\\User 2\\Desktop\\Hidden\\Punchly\\Punchly\\backend\\Punchly\\Punchly\\Dtos\\RegisterPersonalUserRequest.cs",
+              "RelativeDocumentMoniker": "Punchly\\Dtos\\RegisterPersonalUserRequest.cs",
+              "ToolTip": "C:\\Users\\User 2\\Desktop\\Hidden\\Punchly\\Punchly\\backend\\Punchly\\Punchly\\Dtos\\RegisterPersonalUserRequest.cs",
+              "RelativeToolTip": "Punchly\\Dtos\\RegisterPersonalUserRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-02T15:44:53.948Z",
               "EditorCaption": ""
             }
           ]

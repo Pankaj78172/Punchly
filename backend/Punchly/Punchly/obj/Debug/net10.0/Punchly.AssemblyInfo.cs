@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Punchly")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e729c4a96633121cecca16ee68d4073dfb9aa06")]
 [assembly: System.Reflection.AssemblyProductAttribute("Punchly")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Punchly")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
