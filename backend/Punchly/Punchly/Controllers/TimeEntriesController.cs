@@ -4,6 +4,7 @@ using Microsoft.EntityFrameworkCore;
 using Punchly.Api.Dtos;
 using Punchly.Data;
 using Punchly.Models;
+using System.Security.Claims;
 
 namespace Punchly.Api.Controllers;
 
@@ -19,12 +20,26 @@ public class TimeEntriesController : ControllerBase
         _context = context;
     }
 
+    private int GetCurrentUserId()
+    {
+        var userIdValue = User.FindFirst(ClaimTypes.NameIdentifier)?.Value;
+
+        if (string.IsNullOrWhiteSpace(userIdValue))
+        {
+            throw new UnauthorizedAccessException("User ID was not found in token.");
+        }
+
+        return int.Parse(userIdValue);
+    }
+
     [HttpPost("punch-in")]
     public async Task<IActionResult> PunchIn(PunchInRequest request)
     {
-        if (request.AppUserId <= 0 || request.WorkspaceId <= 0)
+        var appUserId = GetCurrentUserId();
+
+        if (request.WorkspaceId <= 0)
         {
-            return BadRequest("User and workspace are required.");
+            return BadRequest("Workspace is required.");
         }
 
         if (!string.IsNullOrWhiteSpace(request.Note) && request.Note.Length > 250)
@@ -33,7 +48,7 @@ public class TimeEntriesController : ControllerBase
         }
 
         var userExists = await _context.AppUser
-            .AnyAsync(u => u.AppUserId == request.AppUserId && u.IsActive);
+            .AnyAsync(u => u.AppUserId == appUserId && u.IsActive);
 
         if (!userExists)
         {
@@ -50,7 +65,7 @@ public class TimeEntriesController : ControllerBase
 
         var isMember = await _context.WorkspacesMember
             .AnyAsync(m =>
-                m.AppUserId == request.AppUserId &&
+                m.AppUserId == appUserId &&
                 m.WorkSpaceID == request.WorkspaceId);
 
         if (!isMember)
@@ -60,7 +75,7 @@ public class TimeEntriesController : ControllerBase
 
         var openEntry = await _context.TimeEntries
             .FirstOrDefaultAsync(t =>
-                t.AppUserId == request.AppUserId &&
+                t.AppUserId == appUserId &&
                 t.WorkspaceId == request.WorkspaceId &&
                 t.PunchOutTime == null);
 
@@ -71,7 +86,7 @@ public class TimeEntriesController : ControllerBase
 
         var entry = new TimeEntry
         {
-            AppUserId = request.AppUserId,
+            AppUserId = appUserId,
             WorkspaceId = request.WorkspaceId,
             PunchInTime = DateTime.UtcNow,
             Note = request.Note
@@ -91,14 +106,16 @@ public class TimeEntriesController : ControllerBase
     [HttpPost("punch-out")]
     public async Task<IActionResult> PunchOut(PunchOutRequest request)
     {
-        if (request.AppUserId <= 0 || request.WorkspaceId <= 0)
+        var appUserId = GetCurrentUserId();
+
+        if (request.WorkspaceId <= 0)
         {
-            return BadRequest("User and workspace are required.");
+            return BadRequest("Workspace is required.");
         }
 
         var openEntry = await _context.TimeEntries
             .FirstOrDefaultAsync(t =>
-                t.AppUserId == request.AppUserId &&
+                t.AppUserId == appUserId &&
                 t.WorkspaceId == request.WorkspaceId &&
                 t.PunchOutTime == null);
 
@@ -108,11 +125,6 @@ public class TimeEntriesController : ControllerBase
         }
 
         var punchOutTime = DateTime.UtcNow;
-
-        if (punchOutTime <= openEntry.PunchInTime)
-        {
-            return BadRequest("Punch out time must be after punch in time.");
-        }
 
         openEntry.PunchOutTime = punchOutTime;
 
@@ -132,11 +144,13 @@ public class TimeEntriesController : ControllerBase
     }
 
     [HttpGet("my-hours")]
-    public async Task<IActionResult> GetMyHours(int appUserId, int workspaceId)
+    public async Task<IActionResult> GetMyHours(int workspaceId)
     {
-        if (appUserId <= 0 || workspaceId <= 0)
+        var appUserId = GetCurrentUserId();
+
+        if (workspaceId <= 0)
         {
-            return BadRequest("User and workspace are required.");
+            return BadRequest("Workspace is required.");
         }
 
         var entries = await _context.TimeEntries
@@ -162,6 +176,4 @@ public class TimeEntriesController : ControllerBase
             entries
         });
     }
-
-
 }

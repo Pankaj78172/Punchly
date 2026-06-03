@@ -14,5 +14,6 @@
         public DateTime CreatedDate { get; set; } = DateTime.UtcNow;
         public List<WorkspaceMember> WorkspaceMembers { get; set; } = new();
         public List<TimeEntry> TimeEntries { get; set; } = new();
+        public string Role { get; set; } = "PersonalUser";
     }
 }

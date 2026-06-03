@@ -53,7 +53,8 @@ public class AccountController : ControllerBase
             FirstName = request.FirstName,
             LastName = request.LastName,
             Email = request.Email,
-            IsActive = true
+            IsActive = true,
+            Role = "PersonalUser"
         };
 
         var passwordHasher = new PasswordHasher<AppUser>();
@@ -117,7 +118,8 @@ public class AccountController : ControllerBase
     {
         new Claim(ClaimTypes.NameIdentifier, user.AppUserId.ToString()),
         new Claim(ClaimTypes.Email, user.Email),
-        new Claim(ClaimTypes.Name, $"{user.FirstName} {user.LastName}")
+        new Claim(ClaimTypes.Name, $"{user.FirstName} {user.LastName}"),
+        new Claim(ClaimTypes.Role, user.Role)
     };
 
         var secretKey = _configuration["JwtSettings:SecretKey"];
@@ -136,6 +138,10 @@ public class AccountController : ControllerBase
 
         var tokenString = new JwtSecurityTokenHandler().WriteToken(token);
 
+        var workspaceMember = await _context.WorkspacesMember
+                                    .Include(m => m.Workspace)
+                                    .FirstOrDefaultAsync(m => m.AppUserId == user.AppUserId);
+
         return Ok(new
         {
             message = "Login successful.",
@@ -145,7 +151,15 @@ public class AccountController : ControllerBase
                 userId = user.AppUserId,
                 firstName = user.FirstName,
                 lastName = user.LastName,
-                email = user.Email
+                email = user.Email,
+                role = user.Role
+            },
+            workspace = workspaceMember == null ? null : new
+            {
+                workspaceId = workspaceMember.WorkSpaceID,
+                workspaceName = workspaceMember.Workspace.Name,
+                workspaceType = workspaceMember.Workspace.Type,
+                memberRole = workspaceMember.Role
             }
         });
     }

@@ -1,0 +1,46 @@
+﻿@baseUrl = https://localhost:7183
+@token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1laWRlbnRpZmllciI6IjIiLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9lbWFpbGFkZHJlc3MiOiJ0ZXN0dXNlckBnbWFpbC5jb20iLCJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiVGVzdCBVc2VyIiwiZXhwIjoxNzgwNTI2ODA2LCJpc3MiOiJQdW5jaGx5LkFwaSIsImF1ZCI6IlB1bmNobHkuQ2xpZW50In0.SyqjNDgsnpQoo5fB0Ftj1b320RbZghz-HeY6X31KKHU
+
+### Register personal user
+POST {{baseUrl}}/api/Account/register-personal
+Content-Type: application/json
+
+{
+  "firstName": "Test",
+  "lastName": "User",
+  "email": "testuser@gmail.com",
+  "password": "Test@12345"
+}
+
+### Login
+POST {{baseUrl}}/api/Account/login
+Content-Type: application/json
+
+{
+  "email": "testuser@gmail.com",
+  "password": "Test@12345"
+}
+
+### Punch in
+POST {{baseUrl}}/api/TimeEntries/punch-in
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "workspaceId": 2,
+  "note": "Starting work"
+}
+
+### Punch out
+POST {{baseUrl}}/api/TimeEntries/punch-out
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "workspaceId": 2,
+  "note": "Starting work"
+}
+
+### My hours
+GET {{baseUrl}}/api/TimeEntries/my-hours?userId=2&workspaceId=2
+Authorization: Bearer {{token}}

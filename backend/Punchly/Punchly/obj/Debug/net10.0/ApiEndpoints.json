@@ -40,11 +40,6 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "appUserId",
-        "Type": "System.Int32",
-        "IsRequired": false
-      },
-      {
         "Name": "workspaceId",
         "Type": "System.Int32",
         "IsRequired": false
